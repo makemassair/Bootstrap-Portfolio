@@ -29,7 +29,15 @@ To put into practice a culimination of the first three weeks of Bootcamp, but pr
     - A footer - hyperlinks should have a hover effect.
 
     - All buttons should display a box shadow on hover.
-    
-    
+
 * My Bootstrap solution should minimise the use of media queries
 * Deployment to my Github.
+
+### Deployed Application
+
+View the deployed application for week-3: responsive-portfolio-lesson at [makemassair.github.io](https://makemassair.github.io/).
+
+### Screenshot
+
+![image](images/screenshot.jpg)
+
