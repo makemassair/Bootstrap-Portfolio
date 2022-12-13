@@ -35,7 +35,7 @@ To put into practice a culimination of the first three weeks of Bootcamp, but pr
 
 ### Deployed Application
 
-View the deployed application for week-3: responsive-portfolio-lesson at [makemassair.github.io](https://makemassair.github.io/).
+View the deployed application for week-3: responsive-portfolio-lesson at [makemassair.github.io](https://makemassair.github.io/Bootstrap-Portfolio).
 
 ### Screenshot
 
