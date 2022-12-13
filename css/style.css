@@ -97,6 +97,9 @@ p {
 .row {
     justify-content: flex-start;
 }
+#skills .row>* {
+    padding: 0;
+}
 .cardContainer {
     margin-bottom: 3.2em;
 }
@@ -121,7 +124,7 @@ p {
     box-shadow: 0 4px #33cc33;
 }
 .progress-bar {
-    background-color: #33cc33; 
+    background-color: #33cc33;
 }
 #contact a {
     border-bottom: 1px solid;
