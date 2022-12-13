@@ -41,17 +41,23 @@ p {
 }
 .btn-primary {
     border-radius: 100px;
-    background: #33cc33;
-    color: #;
+    background: rgb(51 204 51);
     border-color: #00cc33;
     padding: 8px 24px;
 }
 .btn-primary:focus, .btn-primary:hover {
     background-color: var(--blue);
-    border-color: var(--darkblue);
+    border-color: var(--blue);
+    box-shadow: 2px 4px var(--dark);
 }
 
 /* Nav */
+.navbar-expand-lg .navbar-nav {
+    width: 100%;
+    justify-content: end;
+    column-gap: 1.2em;
+}
+
 .navbar-brand {
     font-size: 120%;
     font-weight: 700;
@@ -107,6 +113,7 @@ p {
     font-weight: 300;
 }
 .card-title a {
+    border-bottom: 1px solid;
     font-weight: 500;
     letter-spacing: -0.4px
 }
@@ -116,7 +123,12 @@ p {
 .progress-bar {
     background-color: #33cc33; 
 }
-
+#contact a {
+    border-bottom: 1px solid;
+}
+.card-title a:focus, .card-title a:hover, #contact a:focus, #contact a:hover {
+    border-bottom: 1px solid transparent;
+}
 #contact ul {
     display: flex;
     list-style: none;
@@ -126,8 +138,10 @@ p {
 
 /* Footer */
 footer {
+    color: var(--blueblue);
     font-size: 10px;
     letter-spacing: 1.2px;
+    opacity: 0.6;
     text-transform: uppercase;
     padding: 0 0 1.2em 0;
 }
