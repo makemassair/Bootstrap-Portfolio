@@ -1,0 +1,133 @@
+:root {
+    --dark: #051827;
+    --light: #bdd9cd;
+    --blue: #386994;
+    --darkblue: #214457;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* General Code Aspects */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background: rgb(189 217 205 / .3);
+}
+html {scroll-behavior: smooth;}
+h2 {
+    color: var(--dark);
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+a {
+    color: #00cc33;
+    padding: 0 0 2px;
+    text-decoration: none;
+}
+a[target="_blank"]::after {
+    content: "\1F5D7";
+    display: inline-block;
+    margin-left: 3px;
+}
+a:focus, a:hover {
+    color: var(--blue);
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn-primary {
+    border-radius: 100px;
+    background: #33cc33;
+    color: #;
+    border-color: #00cc33;
+    padding: 8px 24px;
+}
+.btn-primary:focus, .btn-primary:hover {
+    background-color: var(--blue);
+    border-color: var(--darkblue);
+}
+
+/* Nav */
+.navbar-brand {
+    font-size: 120%;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    background: var(--dark);
+    color: #fff;
+    padding: 4px 12px;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    background: transparent;
+    color: #33cc33;
+}
+.nav-item {
+    font-size: 80%;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+}
+
+/* Top Section */
+.jumbotron {
+    padding: 1.2em;
+}
+.display-4 {
+    font-size: 64px;
+    font-weight: 300;
+    letter-spacing: -1.2px;
+}
+
+/* Content */
+#hero,
+#work-section,
+#skills,
+#about {
+    padding: 2.2em;
+}
+.row {
+    justify-content: flex-start;
+}
+.cardContainer {
+    margin-bottom: 3.2em;
+}
+.Profile {
+    border-radius: 100%;
+    max-width: -webkit-fill-available;
+    margin-top: calc(var(--bs-gutter-x) * .5);
+}
+.card-body {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.card-title {
+    color: var(--blue);
+    font-weight: 300;
+}
+.card-title a {
+    font-weight: 500;
+    letter-spacing: -0.4px
+}
+.card-img-top:focus, .card-img-top:hover {
+    box-shadow: 0 4px #33cc33;
+}
+.progress-bar {
+    background-color: #33cc33; 
+}
+
+#contact ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    column-gap: 1em;
+}
+
+/* Footer */
+footer {
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 0 0 1.2em 0;
+}
